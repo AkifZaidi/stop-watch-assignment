@@ -1,0 +1,54 @@
+body{
+background: linear-gradient(pink , rgb(152, 16, 152));
+}
+.main{
+    text-align: center;
+    margin-top: 100px;
+}
+.hour-zero{
+    font-size: 150px;
+    color: white;
+}
+.M-zero{
+    font-size: 150px;
+    position: absolute;
+    top:300px;
+    left: 620px;
+    color: white;
+}
+.sec-heading{
+    color: white;
+    font-size: 20px;
+
+}
+.M-sec-heading{
+    position: absolute;
+    top: 450px;
+    left: 640px;
+    color: white;
+}
+.M-sec-div{
+border: 2px solid purple;
+height: 400px;
+width: 400px;
+margin-left: 450px;
+border-radius: 300px;
+}
+.M-sec-div:hover{
+    border: 2px solid pink;
+}
+.btn{
+    margin-top: 300px;
+    height: 50px;
+    width: 70px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(244, 67, 96);
+    color: purple;
+    transition: .9s;
+}
